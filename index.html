@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link href=
+    "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
+            rel="stylesheet">
+    <link rel="stylesheet" href="./css/slider.css" />
+    <style>
+
+
+    </style>
+    <title>MadhesPardesh</title>
+</head>
+
+<body>
+        <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+                <div class="container-fluid main-nav bg-white">
+                    <div class="container logo  d-flex">
+                        <a class="navbar-brand " href=""><img src="./images/logo.png" alt="" /></a>
+                        <div class="logo-det text-primary ">
+                            <p>Madhesh Province Portal</p>
+                            <a href="">madhesh.gov.np</a>
+                        </div>
+                    </div>
+                    <div class=" collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-4">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Ministries</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Information
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="#">Policy</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Legal information</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">News</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Publications</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">General Information</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="navbar-toggler tdot bg-info justify-content-end" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </nav>
+
+        </header>
+
+        <div  class="main-img">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./images/janaki.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/mp1.jpeg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/mp2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/mp3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/mp4.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+        </div>
+
+        <div class="container-fluid bg-primary p-1">
+            <div class="container s-sec bg-info p-1">
+                <div class="box d-flex justify-content-between">
+                    <div style="width: 100%" class="search d-flex justify-content-between">
+                        <input class="form-control mr-sm-2 p-3" style="font-family: Arial, FontAwesome" type="search"
+                            placeholder="&#xF002;  artical, notice,publications etc..." aria-label="Search" />
+                        <button style=" border: none; font-size: 1.2rem"
+                            class="btn my-2 my-sm-0 p-3 bg-primary text-white" type="submit">
+                            Search
+                        </button>
+                    </div>
+                    <div class="dropdown p-3">
+                        <button class="btn btn-info dropdown-toggle ad-search" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Advanced Search
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown2 p-3">
+                        <button class="btn btn-info dropdown-toggle ad-search" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-square-chevron-down"></i>
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Madhesh Province Glance -->
+
+        <div class="container">
+            <section class="bg-white p-3 mt-3">
+            <div class="row p-5">
+                <div style="background-color:rgb(248, 245, 245) ;" class="col-lg-8 p-5 ">
+                    <h2 class="text-info text-center">Madhesh Province at glance</h2>
+                    <p style="text-align:justify ;" class="mt-4 pag" >
+                        Madhesh Province is a province in the southeastern region of Nepal
+                        that was formed after the adoption of the Constitution of Nepal.
+                        It is Nepal's most populous province, and smallest province by
+                        area. It borders Province No. 1 to the east, Bagmati Province to
+                        then north, and India’s Bihar state to the south. It has an area
+                        of 9,661 km2 (3,730 sq mi) - about 6.5% of the country's total
+                        area. It has a population of 6,126,288 as per the 2021 Nepal
+                        census, making it the most populated province of Nepal. The Koshi
+                        River and Koshi Tappu Wildlife Reserve acts as provincial
+                        demarcation border between Madhesh Province and Province No.1 in
+                        the east. <span>
+                            And the demarcation line between Chitwan National Park
+                            and Parsa National Park (previously Wildlife Reserve) acts as
+                            provincial demarcation border between Madhesh Province and Bagmati
+                            Province in the west. The province includes eight districts from
+                            Saptari District in the east to Parsa District in the west. The
+                            majority of the province's population speaks Maithili, Bhojpuri,
+                            Bajjika and Nepali. The Capital city, a sub-metropolitan city of
+                            Janakpur, also known as Janakpurdham, is a centre for religious
+                            and cultural tourism. It is also thought to have been the capital
+                            of the Videha dynasty that ruled Mithila region in ancient times.
+                            The first urban planned municipality of Nepal, Rajbiraj, is also
+                            the oldest municipality of the Terai belt of Nepal. The town is
+                            believed to have been named after the ancient Rajdevi temple,
+                            which dates back to the 1700s. The metropolitan city of Birgunj is
+                            an economically important industrial centre and the only
+                            metropolitan city in the province.
+                        </span>
+                    </p>
+                    <a style="text-decoration: none; float: right" href="">Know More >>
+                    </a>
+                </div>
+                <div class="col-lg-4  leader " >
+                    <div style="width:100% ;" class="card p-3">
+                        <img class="card-img-top h-100" src="./images/hari_shanker_mishra.jfif" alt="Card image cap" />
+                        <div class="card-body bg-info">
+                            <p class="card-text">Shri Hari Shankar Mishra</p>
+                           <p> Chief of Province</p>
+                        </div>
+                    </div>
+                    <div style="width:100% ;" class="card p-3">
+                        <img class="card-img-top "  src="./images/Lal-babu-Raut.jpg" alt="Card image cap" />
+                        <div class="card-body bg-info">
+                            <p  class="card-text ">Shir Lal Babu Raut</p>
+                            <p>Chief Minister</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+        <!-- Madhesh Province Project -->
+        <div class="container mp-tog bg-white  ">
+            <h1 style="color:  rgba(42,125,190,255);" class="text-center" >Madhesh Province Project</h1>
+            <div class="row ">
+                <div class="col-md-3"></div>
+                <div class="col-md-6 switch ">
+                    <ul  class="tabs p-1 text-center">
+                    <li class="tab-link current " data-tab="popular_project">Popular Project</li>
+                    <li class="tab-link " data-tab="all_project" >All Projects</li>
+                  </ul></div>
+                <div class="col-md-3"></div>
+            </div>
+                    <!-- Popular Project -->
+            <div class="container tab-content current text-white" id="popular_project">
+                <div class="row gallery">
+                    <div class="col-lg-4 col-md-6 mt-2">
+                        <div class="card ">
+                            <img class="card-img-top" src="./images/beti.jpg" alt="Card image cap" />
+                            <div class="card-body">
+                                <p class="card-text">Beti Bachau Beti Padhau</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-2">
+                        <div class="card ">
+                            <img class="card-img-top" src="./images/janaki2.jpg" alt="Card image cap" />
+                            <div class="card-body">
+                                <p class="card-text">Janaki Temple Beautyfication</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-2 ">
+                        <div class="card ">
+                            <img class="card-img-top" src="./images/Swatchhata_Abhiyaan.jpg" alt="Card image cap" />
+                            <div class="card-body">
+                                <p class="card-text">Swatchhata Abhiyaan</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+                   <!-- All project -->
+            <div class="container tab-content text-white" id="all_project">
+                <div class="row gallery">
+                    <div class="col-lg-4 col-md-6 mt-2">
+                        <div class="card ">
+                            <img class="card-img-top" src="./images/save.jfif" alt="Card image cap" />
+                            <div class="card-body">
+                                <p class="card-text">Save the children </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-2">
+                        <div class="card ">
+                            <img class="card-img-top" src="./images/un.jpg" alt="Card image cap" />
+                            <div class="card-body">
+                                <p class="card-text">United nation for all the socity</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-2">
+                        <div class="card ">
+                            <img class="card-img-top" src="./images/mp10.jpg" alt="Card image cap" />
+                            <div class="card-body">
+                                <p class="card-text">हाम्रो मधेश हाम्रो प्रदेश</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+          </div>
+
+  <!-- news -->
+  <div class="container news">
+        <section  class="bg-white p-5 mt-3 " >
+                <h2 class="text-info text-center mb-4">News From Ministry</h2>
+                <div class="row" >
+                    <div class="col-lg-3 col-md-6  text-white mt-2   " >
+                        <div class="card">
+                            <img class="card-img-top" src="./images/अवधारणा  पत्र पेश गर्ने सम्बन्धमा म्याद  थप गरिएको पून सुचना प्रकाशित  .jpeg" alt="Card image cap" />
+                            <div class="card-body">
+                                <div class="date-position d-flex  " style="font-size:0.9rem ;">
+                                    <p  class="card-text px-1" style="border-right : 1px solid white ;">2078-12-10</p>
+                                    <p class="mx-1"> Office of Chief Minister</p>
+                                </div>
+                                <div class="news-content">
+                                    <p>
+                                        नवप्रवर्दन साझेदारी कोषको
+                                        अवधारणापत्र पेश गर्ने सम्बन्धमा
+                                        म्याद थप गरिएको बारे
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mt-2 col-md-6 text-white ">
+                        <div class="card ">
+                            <img class="card-img-top" src="./images/का{र्यकारी zनि7र्देशक पदका.jfif" alt="Card image cap" />
+                            <div class="card-body">
+                                <div class="date-position  d-flex " style="font-size:0.9rem ;">
+                                    <p class="card-text px-1" style="border-right : 1px solid white ;">2078-12-05  </p>
+                                    <p class="mx-1">Office of Chief Minister</p>
+                                </div>
+                                <div class="news-content">
+                                    <p>
+                                        कार्यकारी निर्देशक पदका
+                                        उम्मेदवारहरुको सिफारिस सम्बन्धी
+                                         सूचना
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" mt-2 col-lg-3 col-md-6 text-white">
+                        <div class="card">
+                            <img class="card-img-top" src="./images/का.स.मू.सहमzतिको ला¬गि zविवरण.jpg" alt="Card image cap" />
+                            <div class="card-body">
+                                <div class="date-position  d-flex " style="font-size:0.9rem ;">
+                                    <p class="card-text px-1"style="border-right : 1px solid white ;" >2078-12-07</p>
+                                    <p class="mx-1"> Office of Chief Minister</p>
+                                </div>
+                                <div class="news-content">
+                                    <p>
+                                        का.स.मू.सहमतिको लागि विवरण
+                                        उपलब्ध सम्बन्धी जानकारी
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-2 text-white">
+                        <div class="card">
+                            <img class="card-img-top" src="./images/का{र्यकारी zनि7र्देशक zनियु¬क्तिका ला¬गि.jfif" alt="Card image cap" />
+                            <div class="card-body">
+                                <div class="date-position  d-flex" style="font-size:0.9rem ;">
+                                    <p class="card-text px-1" style="border-right : 1px solid white ;">2078-12-09</p>
+                                    <p class="mx-1"> Office of Chief Minister</p>
+                                </div>
+                                <div class="news-content">
+                                    <p>
+                                        कार्यकारी निर्देशक नियुक्तिका लागि
+                                            दरखास्त आह्वान सम्बन्धी सूचना
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button style="float:right ; background-color: rgba(42,125,190,255); " type="button" class="btn text-white mt-3 ">More >>></button>
+
+            </section>
+        </div>
+
+        <!-- links -->
+
+        <div class="container links">
+                <section class="bg-white p-5 mt-3">
+                <h2 class="text-center  mb-5">Important Links</h2>
+                <div class="row ">
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="card d-flex align-items-center">
+
+                                <p>प्रदेश प्रमुखको कार्यालय</p>
+
+                        </div>
+                        <div class="card">
+
+                                <p>अर्थ मन्त्रालय</p>
+
+                        </div>
+                        <div class="card">
+
+                                <p>भौतिक पूर्वाधार विकास मन्त्रालय</p>
+
+                        </div>
+                        <div class="card">
+
+                                <p>खानेपानी तथा ऊर्जा विकास मन्त्रालय</p>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4  col-md-6">
+                        <div class="card">
+                                <p>मुख्यमन्त्री तथा मन्त्रिपरिषद
+                                    कार्यालय</p>
+                        </div>
+                        <div class="card">
+                               <p> आन्तरिक मामिला तथा सञ्चार मन्त्रालय</p>
+                        </div>
+                        <div class="card">
+                                <p>विकास मन्त्रालय भुमि व्यवस्था तथा कृषि
+                                    मन्त्रालय</p>
+                        </div>
+                        <div class="card">
+                                <p>महिला,बालबालिका,युवा तथा खेलकुद मन्त्रालय</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4  col-md-12">
+                        <div class="card">
+                            <p> प्रदेश सभा सचिवालय</p>
+                        </div>
+                        <div class="card">
+                            <p>उद्योग, पर्यटन, वन तथा
+                                वातावरण मन्त्रालय</p>
+                        </div>
+                        <div class="card">
+                            <p>सामाजिक विकास मन्त्रालय</p>
+                        </div>
+                        <div class="card">
+                            <p>प्रदेश नीति तथा योजना आयोग</p>
+                        </div>
+                        <button style="float:right ; background-color: rgba(42,125,190,255);  " type="button" class="btn text-white ">More ></button>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+
+        <footer class=" text-white">
+            <div class="container">
+                <div class="row pt-5">
+                    <div class="col-lg-3 col-md-6 contact mt-2">
+                        <ul>
+                        <h5>
+                            <i class="fa-solid fa-map"></i> सम्पर्क ठेगाना
+                        </h5>
+                                <li><i class="fa-solid fa-earth-asia"></i> जनकपुरधाम</li>
+                                <li><i class="fa-solid fa-phone"></i> फोन नं.:-०४१–५२१७४३, ५२८३७९</li>
+                                <li><i class="fa-solid fa-envelope"></i> ईमेलः info@ocs.p2.gov.np</li>
+                            </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-2 det">
+                        <ul>
+                        <h5>
+                            संघीय निकाय
+                        </h5>
+                                <li><a href=""> राष्ट्रपतिको कार्यालय</a></li>
+                                <li><a href=""> प्रधानमन्त्री तथा मन्त्रिपरिषद्को कार्यालय</a></li>
+                                <li><a href=""> लोकसेवा आयोगको कार्यालय</a></li>
+                                <li><a href=""> सङ्‍घीय मामिला तथा सामान्य प्रशासन मन्त्रालय</a></li>
+                                <li><a href=""> थप हेर्नुहोस्</a></li>
+                            </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-2 det">
+                        <ul>
+                        <h5>
+                            प्रादेशिक निकाय
+                        </h5>
+                                <li><a href=""> प्रदेश प्रमुखको कार्यालय</a></li>
+                                <li><a href=""> प्रदेश सभा सचिवालय</a></li>
+                                <li><a href=""> मुख्यमन्त्री तथा मन्त्रिपरिषद्को कार्यालय</a></li>
+                                <li><a href=""> आर्थिक मामिला तथा योजना मन्त्रालय</a></li>
+                            </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-2 message">
+                        <ul>
+                        <h5>
+                            सुजाव पेटिका
+                        </h5>
+                                    <form action="/action_page.php" method="post">
+                                      <label for="fname">Name</label>
+                                      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                                      <label for="subject">Subject</label>
+                                      <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+
+                                      <input type="submit" value="Submit">
+                                    </form>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p class="slog">बेटी पढ़ाओ बेटी बचाओ</p>
+            <hr>
+            <div class="copyright text-center">
+            <a  href="">© Copyright 2022 MadheshProvince</a>
+        </div>
+        </footer>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./js/script.js"></script>
+<script src=
+"https://code.jquery.com/jquery-1.10.2.js">
+</script>
+
+<script src=
+"https://code.jquery.com/ui/1.10.4/jquery-ui.js">
+</script>
+<script>
+    $(document).ready(function () {
+        $("ul.tabs li").click(function () {
+          var tab_id = $(this).attr("data-tab");
+
+          $("ul.tabs li").removeClass("current");
+          $(".tab-content").removeClass("current");
+
+          $(this).addClass("current");
+          $("#" + tab_id).addClass("current");
+        });
+      });
+</script>
+
+</html>
